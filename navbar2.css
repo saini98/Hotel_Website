@@ -1,0 +1,57 @@
+.navbar2{    
+    background: white;
+}
+.navbar2-content{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    background-color: white;
+}
+.navbar2-content .logo {
+    display: inline-block;
+    background-color: white;
+}
+.navbar2-content img{
+    width: 250px;
+    position: relative;
+    right: 90px;
+}
+.navbar2-content .details{
+    display: inline-block;
+    width: 72%;
+    background-color: white;
+}
+.navbar2-content .details-content{
+    display: flex;
+    float: right;
+    background-color: white;
+
+}
+.navbar2-content .details-content .details-call,.details-location{
+    display: flex;
+    margin: 12px;
+    background-color: white;
+}
+.navbar2-content .details-content .fas{
+    color: #79b530;
+    background-color: white;
+    font-size: 23px;
+    margin-top: 8px;
+    margin-right: 11px;
+}
+.navbar2-content .details-content p{
+    color: grey;
+    background-color: white;
+    padding: 6px;
+    font-size: 0.8rem;
+}
+.navbar2-content .details-content button{
+    padding: 7px 18px;
+    border: 2px solid #79b530;
+    background-color: rgb(255, 255, 255);
+    color: #79b530;
+    margin: 19px 0px;
+    margin-left: 15px;
+    border-radius: 1px;
+    cursor: pointer;
+}
